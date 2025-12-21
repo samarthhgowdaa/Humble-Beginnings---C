@@ -21,4 +21,4 @@ A *compiler* converts the written code to **machine code** (which is in Binary o
 
 Configured the *code runner* extension settings to **clear previous output** & **save file before running**
 
-Install a [GCC compiler](https://www.msys2.org/){: target="blank"} in Windows, Instructions provided in the wwebsite.
+Install a [GCC compiler](https://www.msys2.org/){: target="blank"} in Windows, Instructions provided in the website.
