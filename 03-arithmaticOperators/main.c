@@ -7,7 +7,7 @@ int main() {
     float x = 1;
     float y = -3;
     float z = 2;
-    float a,b,c,d;
+    float a,b,c,d; //c is just a un-used variable over here
     float f;
 
     z = x + y; 
