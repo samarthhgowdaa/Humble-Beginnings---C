@@ -21,7 +21,7 @@ A *compiler* converts the written code to **machine code** (which is in Binary o
 
 Configured the *code runner* extension settings to **clear previous output** & **save file before running**
 
-Install a [GCC compiler](https://www.msys2.org/){: .target="blank"} in Windows, Instructions provided in the website.
+Install a [GCC compiler](https://www.msys2.org/) in Windows, Instructions provided in the website.
 
 A boiler plate code is given in the [File](/00-PreQuisites/0-boilerPlate.c).
 
