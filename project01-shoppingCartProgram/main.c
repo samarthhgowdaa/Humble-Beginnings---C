@@ -11,7 +11,7 @@ int main(){
 
     printf("What item would you like to buy?:  ");
     fgets(item, sizeof(item), stdin);
-    item[strlen(item) - 1] = '\0';
+    item[strlen(item) - 1] = '\0'; //a null terminator gets rid of the new line character
 
     printf("What is the price for each?:  ");
     scanf("%f", &price);
@@ -21,8 +21,8 @@ int main(){
 
     total = price * quantity;
 
-    printf("\nYou have bought %d %s, worth %.2f each", quantity, item, price);
-    printf("\nThe price is: %c%.2f", currency, total);
+    printf("\nYou have bought %d %s /s, worth %.2f each", quantity, item, price);
+    printf("\nThe total is: %c%.2f", currency, total);
 
     return 0;
 }
