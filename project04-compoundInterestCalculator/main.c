@@ -32,7 +32,5 @@ int main(){
 
     printf("After %d years, the total Amount will be $%.2lf", years, total);
 
-
-
     return 0;
 }
