@@ -11,9 +11,11 @@ int main (){
     if(age >= 18){
         printf("You are an adult");
     }
-    else if (age > 18)
-    {
+    else if (age > 18){
         printf("you are are an adult");
+    }
+    else if (age == 0){
+        printf("Bro! Come out of the womb");
     }
     else{
         printf("you are dead!");
