@@ -8,13 +8,15 @@ int main (){
     printf("Enter your age: ");
     scanf("%d", &age);
 
-    if(age >= 18){
-        printf("You are an adult");
+    // The order matters, so always use the bigger values first
+
+    if(age <= 18){
+        printf("You are a child");
     }
     else if (age > 18){
         printf("you are are an adult");
     }
-    else if (age == 0){
+    else if (age == 0){ //use 2 equals for comparison
         printf("Bro! Come out of the womb");
     }
     else{
