@@ -6,3 +6,6 @@ Do some code if a condition is true, If the condition is false don't do it
 2. else if
 .....
 n. else
+
+
+That's it!
